@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="md:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+  </head>
+  <body
+    class="dark:bg-slate-900 bg-indigo-200 text-slate-900 dark:text-slate-50"
+  >
+    <header class="bg-teal-900 text-white sticky top-0 z-10">
+      <section
+        class="max-w-4xl mx-auto p-4 flex justify-between items-baseline"
+      >
+        <h1 class="text-left text-3xl font-medium">
+          <a href="#hero">🚀Acme Rockets</a>
+        </h1>
+        <div>
+          <button class="md:hidden text-5xl" id="mobileButton">&#9776;</button>
+          <nav class="text-xl hidden md:block space-x-4">
+            <a href="#rockets" class="hover:opacity-80">Rockets</a>
+            <a href="#testimonials" class="hover:opacity-80">Testimonials</a>
+            <a href="#contact" class="hover:opacity-80">Contact Us</a>
+          </nav>
+        </div>
+      </section>
+      <section
+        id="mobileMenu"
+        class="h-screen bg-black text-white hidden animate-menu-open transform origin-top flex-col justify-center items-center gap-10"
+      >
+        <a href="#hero" class="text-3xl hover:opacity-70">Hero</a>
+        <a href="#rockets" class="text-3xl hover:opacity-70">Rockets</a>
+        <a href="#testimonials" class="text-3xl hover:opacity-70"
+          >Testimonials</a
+        >
+        <a href="#contact" class="text-3xl hover:opacity-70">Contact Us</a>
+        <a href="#footer" class="text-3xl hover:opacity-70">Legal</a>
+      </section>
+    </header>
+    <main class="max-w-4xl mx-auto">
+      <section
+        id="hero"
+        class="flex flex-col-reverse md:flex-row justify-center items-center widescreen:section_height tallscreen:section_height p-6 scroll-mt-20"
+      >
+        <article class="w-1/2">
+          <h2
+            class="text-3xl md:text-4xl text-slate-800 dark:text-slate-100 mb-3"
+          >
+            Hello Rocketions, Glad To See You
+          </h2>
+          <p class="text-2xl md:text-3xl text-teal-900 dark:text-teal-300">
+            Well Well Well, Look Who Is This, Our Beloved Body
+          </p>
+        </article>
+        <img src="./img/rocketdab.png" alt="rocketdab" class="w-1/2" />
+      </section>
+      <hr class="bg-black w-1/2 mx-auto dark:bg-white" />
+      <section
+        id="rockets"
+        class="max-w-4xl mx-auto widescreen:section_height tallscreen:section_height p-6 scroll-mt-10"
+      >
+        <h3 class="text-4xl md:text-5xl font-bold text-center my-10">
+          Rockets
+        </h3>
+        <ul
+          class="list-none p-6 flex flex-col md:flex-row gap-8 items-center justify-center"
+        >
+          <li
+            class="flex flex-col gap-5 border border-solid rounded-2xl text-xl items-center justify-center p-3 h-96 border-black dark:border-white w-5/6"
+          >
+            <img src="./img/rocketride.png" alt="rocketride" class="w-1/2" />
+            <h4>Bare Minimal</h4>
+            <p>Basic Requirement</p>
+            <p class="text-teal-900">$</p>
+          </li>
+          <li
+            class="flex flex-col gap-5 border border-solid rounded-2xl text-xl items-center justify-center p-3 border-black dark:border-white w-5/6"
+          >
+            <img src="./img/rocketman.png" alt="rocketman" class="w-1/2" />
+            <h4>Standard</h4>
+            <p>Among Others</p>
+            <p class="text-teal-900">$$</p>
+          </li>
+          <li
+            class="flex flex-col gap-5 border border-solid rounded-2xl text-xl items-center justify-center p-3 border-black dark:border-white w-5/6"
+          >
+            <img
+              src="./img/rocketlaunch.png"
+              alt="rocketlaunch"
+              class="w-1/2"
+            />
+            <h4>Stand Out</h4>
+            <p>Man On The Elephant</p>
+            <p class="text-teal-900">$$$</p>
+          </li>
+        </ul>
+      </section>
+      <hr class="bg-black dark:bg-white mx-auto w-1/2" />
+      <section
+        class="p-6 my-10 widescreen:section_height tallscreen:section_height scroll-mt-20"
+        id="testimonials"
+      >
+        <h3 class="text-center text-4xl md:text-5xl font-bold">Testimonials</h3>
+        <figure class="my-10">
+          <blockquote
+            class="relative pl-14 pr-8 py-10 border border-solid border-teal-900 dark:border-none bg-slate-900 text-white rounded-3xl"
+          >
+            <p
+              class="text-3xl md:text-4xl before:absolute before:top-0 before:left-0 before:content-['\201C'] before:text-9xl before:font-serif before:transform before:translate-x-2 before:translate-y-2 after:absolute after:-bottom-20 after:right-0 after:content-['\201D'] after:text-9xl after:font-serif after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+              Happy to work with them. They are so thoughtful that you don't
+              need to explain in detail. Just tell them the fact and they show
+              the results.
+            </p>
+          </blockquote>
+          <figcaption class="text-right text-xl">&#8212;PhyoWaiLin</figcaption>
+        </figure>
+        <figure class="my-10">
+          <blockquote
+            class="relative pl-14 pr-8 py-10 border border-solid rounded-3xl dark:border-none border-teal-900 bg-slate-900 text-white"
+          >
+            <p
+              class="text-3xl md:text-4xl before:absolute before:top-0 before:left-0 before:content-['\201C'] before:font-serif before:text-9xl before:transform before:translate-x-2 before:translate-y-2 after:absolute after:-bottom-20 after:right-0 after:content-['\201D'] after:font-serif after:text-9xl after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+              Glad to work with them. They are energetic & sympathetic. They
+              always carry their coworkers. It is very productive to work with
+              them.
+            </p>
+          </blockquote>
+          <figcaption class="text-right text-xl">&#8212;Juju</figcaption>
+        </figure>
+        <figure class="my-10">
+          <blockquote
+            class="relative pl-14 pr-8 py-10 border border-solid rounded-3xl dark:border-none border-teal-900 bg-slate-900 text-white"
+          >
+            <p
+              class="text-3xl md:text-4xl before:absolute before:top-0 before:left-0 before:content-['\201C'] before:font-serif before:text-9xl before:transform before:translate-x-2 before:translate-y-2 after:absolute after:-bottom-20 after:right-0 after:content-['\201D'] after:font-serif after:text-9xl after:transform after:-translate-x-2 after:-translate-y-2"
+            >
+              Just wanna say wow wow wow to work with them. Very delightful to
+              work with them. They are systematic and powerful. Highly
+              recommended to them.
+            </p>
+          </blockquote>
+          <figcaption class="text-right text-xl">&#8212;Dojone Kyi</figcaption>
+        </figure>
+      </section>
+      <hr class="w-1/2 mx-auto bg-black dark:bg-white" />
+      <section
+        class="my-10 widescreen:section_height tallscreen:section_height p-6 scroll-mt-20"
+        id="contact"
+      >
+        <h3 class="text-center text-4xl md:text-5xl font-bold">Contact Us</h3>
+        <form class="flex flex-col gap-2 my-5">
+          <label for="subject" class="text-3xl md:text-4xl">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            class="p-3 border border-solid border-black dark:border-none rounded-xl text-teal-800 text-2xl md:text-3xl"
+            placeholder="Subject"
+            autocomplete="off"
+          />
+          <label for="content" class="text-3xl md:text-4xl">Content</label>
+          <textarea
+            name="content"
+            id="content"
+            cols="30"
+            rows="10"
+            class="text-3xl md:text-4xl text-teal-900 p-3 border border-solid dark:border-none border-teal-900 rounded-xl"
+            placeholder="Your Content"
+          ></textarea>
+        </form>
+      </section>
+    </main>
+    <footer class="text-white bg-teal-900" id="footer">
+      <section
+        class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between p-6 items-center"
+      >
+        <address>
+          A Little Bit Of Bagan Restaurant <br />
+          No(5), Thiripyitsayar Quarter <br />
+          Nyaung U <br />
+          Mandalay Division <br />
+          MYANMAR
+        </address>
+        <nav class="md:flex hidden flex-col">
+          <a href="#hero" class="text-xl hover:opacity-80">Hero</a>
+          <a href="#rockets" class="text-xl hover:opacity-80">Rockets</a>
+          <a href="#testimonials" class="text-xl hover:opacity-80"
+            >Testimonials</a
+          >
+          <a href="#contact" class="text-xl hover:opacity-80">Contact Us</a>
+        </nav>
+        <div><span>2023</span>, &copy; Copyright, All Rights Reserved.</div>
+      </section>
+    </footer>
+  </body>
+</html>
